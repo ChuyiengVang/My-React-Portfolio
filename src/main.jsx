@@ -1,11 +1,10 @@
 import ReactDOM from 'react-dom/client';
-// Todo: Bring in the appropriate imports
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-// Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import ResumePage from './pages/ResumePage';
@@ -14,7 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
 const router = createBrowserRouter([
-  // Todo: Define the accessible routes, and which components respond to which URL
+
   {
     path: '/',
     element: <App/>,
@@ -25,15 +24,15 @@ const router = createBrowserRouter([
         element: <AboutPage/>,
       },
       {
-        path: 'portfolio',
+        path: '/portfolio',
         element: <PortfolioPage/>,
       },
       {
-        path: 'contact',
+        path: '/contact',
         element: <ContactPage/>,
       },
       {
-        path: 'resume',
+        path: '/resume',
         element: <ResumePage/>,
       }
     ]
