@@ -1,0 +1,28 @@
+.iconLink {
+
+    height: 45px;
+
+}
+
+.iconOne {
+    display: flex;
+    background-image: url(../images/github.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.iconTwo {
+
+    background-image: url(../images/linkedin.png);
+    background-size: cover;
+    height: 15px;
+
+}
+
+.iconThree {
+
+    background-image: url(../images/faccebook.png);
+    background-size: cover;
+
+}

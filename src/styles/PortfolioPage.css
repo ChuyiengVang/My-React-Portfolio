@@ -1,0 +1,35 @@
+.portOne, .portTwo, .portThree, .portFour, .portFive {
+
+    background-size: cover;
+    border-radius: 6px;
+    height: 150px;
+
+}
+
+.portOne {
+
+    background-image: url(../images/salmon.jpg);
+    height: 170px;
+}
+.portTwo {
+
+    background-image: url(../images/bass.jpg);
+
+}
+
+.portThree {
+
+    background-image: url(../images/pike.jpg);
+
+}
+
+.portFour {
+   
+    background-image: url(../images/trout.jpg);
+
+}
+
+.portFive {
+    background-image: url(../images/walleye.jpg);
+
+}

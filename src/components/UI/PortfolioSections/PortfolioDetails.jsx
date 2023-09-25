@@ -1,11 +1,10 @@
  export default function PortfolioDetails({ links }) {
     return(
-        <div className='portBoxes'>
-        <div className='mainPort'>
-          <div className='portOne'></div>
-        </div>
+      <div>
         <div className='sidePort'>
-            {links.map((link) => link)}
+          <div className='row justify-content-around portLinks'>
+              {links.map((link) => link)}
+          </div>
         </div>
       </div>
     );
