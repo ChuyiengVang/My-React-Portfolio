@@ -9,7 +9,7 @@ export default function contactForm() {
               </div>
               <div className="mb-3">
                 <label for="email" className="form-label">Email</label>
-                <input type="text" className="form-control" id="email" name="userEmail" placeholder="Enter your Email"></input>
+                <input type="email" className="form-control" id="email" name="userEmail" placeholder="Enter your Email"></input>
               </div>
               <div className="mb-3">
                 <label for="message" className="form-label">Message</label>

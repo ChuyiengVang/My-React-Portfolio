@@ -7,12 +7,11 @@ export default function Footer() {
   return (
     <FooterInfo
       links={[
-        <Link key={1} className="col-1 iconOne" to="/">
-          I am Ironman
+        <Link key={1} className="mx-2 mt-5 iconOne" to="https://github.com/ChuyiengVang">
         </Link>,
-        <Link key={2} className="col-1 iconTwo" to="/">
+        <Link key={2} className="mx-2 mt-5 iconTwo" to="/">
         </Link>,
-        <Link key={3} className="col-1 iconThree" to="/">
+        <Link key={3} className="mx-2 mt-5 iconThree" to="/">
         </Link>,
       ]}
     />
